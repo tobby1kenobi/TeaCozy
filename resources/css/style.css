@@ -4,7 +4,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  /*text-align: center;*/
+  text-align: center;
 
 }
 
@@ -25,6 +25,7 @@ header {
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+
 }
 
   nav {
@@ -43,13 +44,20 @@ header {
     color: seashell;
   }
 
-  .mission {
-    display: flex;
-  }
+
 
   .image-content {
     display: flex;
+    position: relative;
+    /*justify-content: center;*/
     height: 700px;
     width: 1200px;
+    top: 70px;
+    margin: 0 auto;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+   }
+
+   .text-content {
+     display: flex;
+     margin: auto auto;
    }
