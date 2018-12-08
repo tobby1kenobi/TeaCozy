@@ -57,21 +57,21 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    justify-items: flex-end;
+    top: 70px;
     height: 700px;
     width: 1200px;
-
     margin: 0 auto;
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
    }
 
-  .text-content {
+  .mission .text-content {
      display: flex;
      flex-direction: column;
      position: relative;
-    justify-items: center;
-     margin: auto 0;
-     height: 100px;
+     align-items; center;
+     margin: auto auto;
+     top: 70px;
+     height: 110px;
      width: 1200px;
      background-color: black;
    }
@@ -83,13 +83,15 @@ header {
    align-items: center;
   }
 
- .tea .thumbnail #blitz {
+ .tea {
      display: flex;
      position: relative;
+     height: 700px;
+     width: 1000px;
      top: 70px;
    }
 
-   /*.tea .thumbnail {
+   .thumbnail {
      display: flex;
      justify-items: flex-start;
      flex-flow: wrap;
