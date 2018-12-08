@@ -57,7 +57,7 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 70px;
+    /*top: 70px;*/
     height: 700px;
     width: 1200px;
     margin: 0 auto;
@@ -80,21 +80,39 @@ header {
    display: flex;
    flex-direction: column;
    position: relative;
-   align-items: center;
+   justify-items: center;
   }
 
  .tea {
      display: flex;
+     justify-items: space-between;
+     flex-flow: wrap;
      position: relative;
      height: 700px;
      width: 1000px;
-     top: 70px;
+     top: 150px;
+     margin: auto 0;
    }
 
-   .thumbnail {
+   .product {
      display: flex;
-     justify-items: flex-start;
-     flex-flow: wrap;
+     flex-wrap: wrap;
+     justify-items: space-between;
      height: 200px;
      width: 300px;
-   }*/
+
+
+   }
+   .thumbnail {
+     display: flex;
+     justify-items: space-between;
+     height: 200px;
+     width: 300px;
+
+   }
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  top: 200px;
