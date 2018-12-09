@@ -52,7 +52,7 @@ header {
     top: 70px;
     border: 1px white solid;
   }
- .mission-image {
+ #mission {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -63,20 +63,21 @@ header {
    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
 }
 
- .text {
+
+.text {
   display: flex;
-
-  align-items: center;
-
-
+  flex-direction: column;
   height: 100px;
-  width: auto;
+  width: 1200px;
   border: 1px white solid;
   background-color: black;
 }
 
-
-
+h2 {
+  display: flex;
+  flex-direction: column;
+}
+]
 
 
 
