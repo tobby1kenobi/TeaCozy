@@ -43,7 +43,7 @@ header {
     color: seashell;
   }
 
-  .mission {
+  /*.mission {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -53,7 +53,7 @@ header {
     width: 1200px;
   }
 
-   .image-large {
+   .mission .image-large {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -81,9 +81,9 @@ header {
    flex-direction: column;
    position: relative;
    justify-items: center;
-  }
+  }*/
 
- .tea {
+ /*.tea {
      display: flex;
      justify-items: space-between;
      flex-flow: wrap;
