@@ -43,6 +43,69 @@ header {
     color: seashell;
   }
 
+   .mission .image-content {
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    top: px;
+
+ }
+
+  .image-content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    top: 70px;
+  }
+
+  .image-content .text {
+    display: flex;
+    height: 100px;
+    width: 1200px;
+    position: relative;
+    background-color: black;
+    margin: auto 0;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /*.mission {
     display: flex;
     flex-direction: column;
@@ -53,7 +116,7 @@ header {
     width: 1200px;
   }
 
-   .mission .image-large {
+   /*.mission .image-large {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -64,7 +127,7 @@ header {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
    }
 
-  .mission .text-content {
+  /*.mission .text-content {
      display: flex;
      flex-direction: column;
      position: relative;
