@@ -47,7 +47,7 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    justify-content: space-between;
+    /*justify-content: space-between;
     /*padding-bottom: 50px;*/
     height: 2000px;
     width: auto;
@@ -92,7 +92,7 @@ header {
 
 .box {
   display: flex;
-  height: 200px;
+   height: 225px;
   width: 300px;
   border: 1px white solid;
   padding-right: 10px;
@@ -100,6 +100,11 @@ header {
 
 
 
+h4,.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  }
 
 
 
