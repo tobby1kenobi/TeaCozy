@@ -43,39 +43,38 @@ header {
     color: seashell;
   }
 
-   .mission .image-content {
-    display: flex;
-    height: 700px;
-    width: 1200px;
-    position: relative;
-    top: px;
-
- }
-
-  .image-content {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
-  }
-
   .main {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: auto;
+    height: 2000px;
+    width: auto;
     top: 70px;
+    border: 1px white solid;
   }
+ .mission-image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   height: 700px;
+   width: 1200px;
+   border: 1px white solid;
+   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
 
-  .image-content .text {
-    display: flex;
-    height: 100px;
-    width: 1200px;
-    position: relative;
-    background-color: black;
-    margin: auto 0;
+ .text {
+  display: flex;
 
-  }
+  align-items: center;
+
+
+  height: 100px;
+  width: auto;
+  border: 1px white solid;
+  background-color: black;
+}
+
 
 
 
