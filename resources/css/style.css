@@ -72,57 +72,42 @@ header {
   }
 
 
-  .intro.container {
-    display: flex;
-    flex-direction: column;
-    height: 120px;
-    border: 1px white solid;
-  }
-
-  /*height: 100px;
-  width: 200px;
-  border: 1px white solid;
-
-}
-
-  .mission .text {
+  .intro  {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto 0;
-    height: 150px;
+    height: 120px;
+    width: auto;
+    position: relative;
+    margin-top: 60px;
+    border: 1px white solid;
+  }
+
+  .tea.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    position: relative;
+    height: 650px;
     width: 1200px;
-    background-color: black;
+    top: 40px;
+    border: 1px white solid;
+  }
+
+  .product img {
+    display: flex;
+    height: 225px;
+    width: 300px;
+    border: 1px white solid;
+  }
+
+  .product h4 {
+    margin-top: 10px;
   }
 
 
-.tea .container {
-  display: flex;
 
-    height: 600px;
-  width: 1000px;
-  position: relative;
-}
-
- .tea .product {
-   display: flex;
-   flex-flow: row wrap;
- }
-
-  .tea.thumbnail {
-  display: flex;
-  height: 200px;
-  width: 300px;
-  border: 1px solid white;
-   }
-}
-
-
-
-height: 200px;
-width: 300px;
-  border: 1px solid white;
- }
 
 
 
