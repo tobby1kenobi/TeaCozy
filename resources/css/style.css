@@ -122,19 +122,14 @@ header {
   .address {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     height: 300px;
     width: 300px;
     border: 1px white solid;
+    opacity: 1;
   }
 
-  .address span {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
 
-
-
-  }
 
 
 
