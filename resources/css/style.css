@@ -59,6 +59,7 @@ header {
     /*justify-content: center;*/
     margin: 0 auto;
     border: 1px white solid;
+
   }
 
    .image.large {
@@ -106,7 +107,34 @@ header {
     margin-top: 10px;
   }
 
+  .location {
+    dipslay: flex;
 
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+        width: 1200px;
+    position: relative;
+    border: 1px white solid;
+    top: 70px;
+  }
+
+  .address {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border: 1px white solid;
+  }
+
+  .address span {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+
+
+  }
 
 
 
